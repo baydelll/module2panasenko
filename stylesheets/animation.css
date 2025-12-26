@@ -1,0 +1,158 @@
+@keyframes volkk1 {
+    0% {
+        transform: translateY(-15%);
+    }
+
+    50% {
+        transform: translateY(0%);
+    }
+
+    100% {
+        transform: translateY(-15%);
+    }
+}
+
+@keyframes begstrok1 {
+    0% {
+        transform: translateX(0%);
+        top: 1%;
+    }
+
+    100% {
+        transform: translateX(-50%);
+        top: 1%;
+    }
+}
+
+@keyframes zatmenie {
+    0% {
+        transform: translateX(0%);
+    }
+
+    50% {
+        transform: translateX(-220%);
+    }
+
+    100% {
+         transform: translateX(0%);
+    }
+}
+
+@keyframes obshe {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes scale-in-center {
+    0% {
+        transform: scale(0.5);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes obshe2 {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    80% {
+         opacity: 1;
+    }
+
+    100% {
+         opacity: 1;
+    }
+}
+
+@keyframes obshe3 {
+    0% {
+        opacity: 1;
+    }
+    100% {
+       transform: translateX(20vw);
+
+    }
+}
+
+@keyframes shuba {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(-20deg);
+    }
+    100% {
+         transform: rotate(0deg);
+    }
+
+}
+
+@keyframes shuba1 {
+    0% {
+        transform: rotate(10deg);
+    }
+
+    50% {
+        transform: rotate(-10deg);
+    }
+
+    100% {
+        transform: rotate(10deg);
+    }
+
+}
+
+@keyframes glazun1{
+        0% {
+                transform: translateX(0);
+            }
+        
+        20% {
+                transform: translateX(-0.7vw) translateY(-0.7vw)
+            }
+        
+        40% {
+                transform: translateX(0) translateY(0)
+            }
+        
+        60% {
+                transform: translateX(0) translateY(0)
+            }
+        80% {
+                transform: translateX(0) translateY(0)
+            }
+        100% {
+                transform: translateX(0) translateY(0)
+            }
+        
+}
+
+@keyframes beg{
+    0%{
+        background-position-x: 0;
+    }
+    33% {
+        background-position-x: 24.57vw;
+    }
+    99% {
+        background-position-x: 49.14vw;
+    }
+}
+
