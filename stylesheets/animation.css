@@ -207,7 +207,7 @@
 }
 @keyframes yzorchik1 {
     0% {
-        transform: translateY(-90%);
+        transform: translateY(-120%);
         opacity: 1;
     }
 
@@ -224,7 +224,7 @@
     }
 
     100% {
-        transform: translateY(520%);
+        transform: translateY(400%);
         opacity: 1;
     }
 }
