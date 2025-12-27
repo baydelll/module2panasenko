@@ -59,7 +59,12 @@ h1{
 .bolshoivolk{
     overflow: hidden;
 }
-
+.ttot{
+    position: absolute;
+    width: 12%;
+    margin-top: 7vw;
+    margin-left: 33vw;
+}
 .siluet{
     width: 100%;
     margin-top: -3.7vw;
@@ -89,7 +94,6 @@ h1{
 
 .glazy1{
     position: absolute;
-    animation: glazun1 5s infinite linear;
     width: 4%;
     margin-top: -22.5vw;
     margin-left: 30vw;
@@ -139,12 +143,15 @@ h1{
     position: absolute;
     width: 100%;
     transition: transform 0.5s ease-in-out;
-    transform: translateX(0) translateY(0) scale(1);
+    transform: translateX(0);
     overflow: hidden;
+    cursor: url('../images/nozi.png'), auto;
 }
 .obshi:hover {
-    transform: translateX(20%) translateY(7%) scale(0.7);
+    transform: translateX(20%);
+    overflow: hidden;
 }
+
 .s1{
     position: absolute;
     animation: shuba 2s infinite linear;
@@ -273,12 +280,248 @@ h1{
     width: 100%;
     height: 15vw;
     margin-top: 33.5vw;
+    overflow: hidden;
 }
 
-#volkbeg{
-    width: 24.57vw;
+.volki{
+    display: flex;
+    flex-direction: row;
+    animation: begstrok1 3s infinite linear reverse;
+    margin-top: 2vw;
+
+}
+#volkbeg,
+#volkbeg2,
+#volkbeg3,
+#volkbeg4,
+#volkbeg5,
+#volkbeg6{
+    width: 24.71vw;
     height: 10.42vw;
     background-image: url('../images/anima2.png');
-    background-size: 73.73vw 10.42vw;
-    animation: beg 1s steps(1) alternate infinite;
+    background-size: 49.42vw 10.42vw;
+    animation: beg 0.5s steps(1) alternate infinite;
+    padding-left: 50%;
+}
+.yolkifon{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    margin-top: 48vw;
+    width: 100%;
+    height: 11vw;
+
+}
+
+.y11,
+.y9,
+.y7,
+.y5,
+.y3,
+.y1{
+    width: 7%;
+    padding-left: 2%;
+    margin-left: 0.1vw;
+    animation: vniz 2s steps(1) infinite;
+}
+.y12,
+.y10,
+.y8,
+.y6,
+.y4,
+.y2 {
+    width: 5%;
+    padding-left: 2%;
+    margin-left: 0.1vw;
+    animation: vverh 2s infinite linear;
+}
+#pobeg6,
+#pobeg5,
+#pobeg4,
+#pobeg3,
+#pobeg2,
+#pobeg{
+    width: 17vw;
+    height: 13.68vw;
+    background-image: url('../images/chel.png');
+    background-size: 60.42vw 13.68vw;
+    animation: begun 0.5s steps(1) alternate infinite;
+
+}
+
+#pobeg{
+    margin-left: 19vw;
+}
+
+#pobeg2 {
+    margin-left: 14vw;
+}
+
+#pobeg3 {
+    margin-left: 13vw;
+}
+#pobeg4 {
+    margin-left: 19vw;
+}
+#pobeg5 {
+    margin-left: 14vw;
+}
+#pobeg6 {
+    margin-left: 13vw;
+}
+
+.chuvi{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1vw;
+    margin-left: -71vw;
+    animation: begstrok1 6s infinite linear;
+
+}
+.fon{
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        margin-top: 60vw;
+        width: 100%;
+        height: 11vw; 
+        overflow: hidden;
+       
+}
+.nozi{
+    display: flex;
+    flex-direction: row;
+    animation: begstrok1 2s infinite linear;
+}
+
+
+.n1,
+.n2,
+.n3,
+.n4,
+.n5,
+.n6{
+    scale: 100%;
+    padding-right: 30%;
+
+}
+.kartinki{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    height: 57vw;
+    margin-top: 74.2vw;
+
+}
+.vmeste{
+    margin-left: 3vw;
+    margin-top: -1vw;
+
+}
+.k1{
+    position: absolute;
+    width: 20%;
+    margin-top: 4vw;
+    margin-left: 4vw;
+    
+}
+.k2{
+    position: absolute;
+        width: 20%;
+        margin-top: 4vw;
+        margin-left: 25vw;
+}
+.k3 {
+    position: absolute;
+    width: 20%;
+    margin-top: 4vw;
+    margin-left: 46vw;
+}
+.k4 {
+    position: absolute;
+    width: 20%;
+    margin-top: 19.9vw;
+    margin-left: 4vw;
+
+}
+.k5 {
+    position: absolute;
+    width: 20%;
+    margin-top: 36vw;
+    margin-left: 4vw;
+
+}
+.k6 {
+    position: absolute;
+    width: 40.9%;
+    margin-top: 19.9vw;
+    margin-left: 25vw;
+
+}
+.k7 {
+        position: absolute;
+        width: 22%;
+        margin-top: 4vw;
+        margin-left: 67vw
+}
+
+.she1{
+    position: absolute;
+        width: 12%;
+        margin-top: 82vw;
+        margin-left: 79vw;
+        animation: yzorchik1 3s infinite linear;
+        
+}
+.she1:hover {
+    animation-play-state: paused;
+}
+
+.she2{
+    position: absolute;
+        width: 9%;
+        margin-top: 83vw;
+        margin-left: 75vw;
+        animation: yzorchik2 3.5s infinite linear;
+}
+.she2:hover {
+    animation-play-state: paused;
+}
+
+.she3 {
+    position: absolute;
+    width: 11%;
+    margin-top: 78vw;
+    margin-left: 72vw;
+    animation: yzorchik2 4s infinite linear;
+}
+
+.she3:hover {
+    animation-play-state: paused;
+}
+.she4 {
+    position: absolute;
+    width: 12%;
+    margin-top: 78vw;
+    margin-left: 69vw;
+    animation: yzorchik2 2.5s infinite linear;
+}
+
+.she4:hover {
+    animation-play-state: paused;
+}
+.she5 {
+    position: absolute;
+    width: 9%;
+    margin-top: 78vw;
+    margin-left: 17vw;
+    animation: yzorchik3 2.5s infinite linear;
+}
+
+.she5:hover {
+    animation-play-state: paused;
 }
